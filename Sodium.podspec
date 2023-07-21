@@ -9,14 +9,13 @@ Pod::Spec.new do |s|
   s.swift_version = "5.0"
   s.license = { type: "ISC", file: "LICENSE" }
   s.summary = "Swift-Sodium provides a safe and easy to use interface to perform common cryptographic operations on Apple platforms."
-  s.homepage = "https://github.com/jedisct1/swift-sodium"
-  s.social_media_url = "https://twitter.com/jedisct1"
-  s.authors = { "Frank Denis" => "" }
-  s.source = { git: "https://github.com/jedisct1/swift-sodium.git",
+  s.homepage = "https://github.com/keithacn/swift-sodium"
+  s.authors = { "Keith ACN" => "" }
+  s.source = { git: "https://github.com/keithacn/swift-sodium.git",
                tag: "0.9.1" }
 
-  s.ios.deployment_target = "9.0"
-  s.osx.deployment_target = "10.11"
+  s.ios.deployment_target = "11.0"
+  s.osx.deployment_target = "10.13"
   s.watchos.deployment_target = "5.0"
 
   s.source_files = "Sodium/**/*.{swift,h}"
