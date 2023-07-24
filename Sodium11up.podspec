@@ -4,15 +4,15 @@
 # If you need to support Apple Silicon, use the Swift package instead.
 
 Pod::Spec.new do |s|
-  s.name = "Sodium"
-  s.version = "0.9.1"
+  s.name = "Sodium11up"
+  s.version = "0.9.2"
   s.swift_version = "5.0"
   s.license = { type: "ISC", file: "LICENSE" }
   s.summary = "Swift-Sodium provides a safe and easy to use interface to perform common cryptographic operations on Apple platforms."
   s.homepage = "https://github.com/keithacn/swift-sodium"
   s.authors = { "Keith ACN" => "" }
   s.source = { git: "https://github.com/keithacn/swift-sodium.git",
-               tag: "0.9.1" }
+               tag: "0.9.2" }
 
   s.ios.deployment_target = "11.0"
   s.osx.deployment_target = "10.13"
